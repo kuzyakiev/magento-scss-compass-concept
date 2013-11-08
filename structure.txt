@@ -1,0 +1,24 @@
+sass-concept.loc
+	.gitignore (в который входит правил которое хайдает skin/css/sass/css
+	index.php
+	skin
+		frontend
+			package
+				theme				
+					images
+						compiled_sprites <- ignored folder
+						sprites
+							spritename				
+								*.png
+							otherspritename
+								*.png
+							...	
+					css
+						*.css
+					scss
+						*.scss
+					compiled_css (better name) <- ignored folder
+						*.css
+						
+sass-concept-mirror.loc
+	<git clone of first one>
