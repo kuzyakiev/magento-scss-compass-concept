@@ -1,0 +1,19 @@
+$font-stack:    'PT Sans', Helvetica, sans-serif;
+$primary-color: #444;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+$sprite-sprite-base-class: '.social';
+$sprite-layout: smart;
+$sprite-sprite-dimensions: true;
+$sprite-spacing: 20px;
+
+@import "social/*.png";
+@include all-social-sprites;
+
+@import "icons/*.png";
+@include all-icons-sprites;
+

@@ -1,3 +1,8 @@
+#SCSS & CSS
+.sass-cache
+skin/frontend/package/theme/compiled_css
+skin/frontend/package/theme/images/compiled_sprites
+
 #magento
 .phpstorm.meta.php
 *.phpstorm.meta.php
