@@ -46,12 +46,12 @@ body {
 }
 $social-sprite-layout: smart;
 $social-sprite-dimensions: true;
-@import "sprites/social/*.png";
+@import "social/*.png";
 @include all-social-sprites;
 
 $icons-sprite-layout: smart;
 $icons-sprite-dimensions: true;
-@import "sprites/icons/*.png";
+@import "icons/*.png";
 @include all-icons-sprites;
 ```
 Запускаем и радуемся успеху :)
